@@ -1,0 +1,22 @@
+{
+  "name": "mercado-liebre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanopablo8/mercado-liebre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romanopablo8/mercado-liebre/issues"
+  },
+  "homepage": "https://github.com/romanopablo8/mercado-liebre#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
