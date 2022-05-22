@@ -1,0 +1,46 @@
+header {
+   background-color: #eac926;
+}
+
+* {
+   font-family: 'Roboto', sans-serif;
+}
+
+p {
+   font-size: 12px;
+}
+
+.productos h3 {
+   font-size: 24px;
+}
+
+.precios {
+   font-size: 24px;
+}
+
+.productos .precios {
+   font-size: 18px;
+} 
+
+.productos .descuentos, .productos .descripciones {
+   font-size: 16px;
+} 
+
+.test {
+   text-align: center;
+}
+
+.test2 {
+   text-align:justify;
+}
+
+div.burger-menu {
+   text-align: center;
+   background-color: #1259c3;
+   width: 40px;
+   margin: auto;
+   padding: 10px 0px 20px 0px;
+   border-radius: 7px;
+   color: #FFF;
+   height: 15px;
+}

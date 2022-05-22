@@ -11,8 +11,6 @@ app.get('/', (req,res)=>{
    res.sendFile (__dirname + '/views/home.html');
  });
 
-
-
 // const express = require ('express');
 // const path = require ('path');
 // const app = express();
