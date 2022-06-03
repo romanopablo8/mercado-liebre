@@ -8,8 +8,12 @@
  });
 
 app.get('/', (req,res)=>{
-   res.sendFile (__dirname + '/views/home.html');
+   res.sendFile ( __dirname + '/views/home.html');
  });
+
+ app.get('/', ( req, res)=>{
+  res.sendFile ( __dirname + '/views/register.html');
+});
 
 // const express = require ('express');
 // const path = require ('path');
