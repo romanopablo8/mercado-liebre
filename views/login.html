@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="/static/css/styles.css">
+        <title> Bienvenido a nuestro Mercado Liebre </title>
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="main-header-top-bar">
+                <img src="/static/images/logo-mercado-liebre.svg" class="logo"> 
+                <div class="search-bar">
+                    <input type="search" placeholder="Buscar productos, marcas">
+                    <button>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                    <h2 class="copy-header">
+                    <i class="fas fa-hand-holding-usd"></i>
+                 Comprá en cuotas y sin tarjeta de crédito </h2> 
+                 <br></br>
+            </div>        
+            <a href="#" class="burger-menu"><i class="fas fa-bars"></i></a>
+            <nav class="main-navbar">
+                <ul class="left-navbar">
+                   <li><a href="#">Ofertas</a></li>
+                   <li><a href="#">Tiendas Oficiales</a></li>
+                   <li><a href="#">Vender</a></li>
+                   <li><a href="#">Ayuda</a></li>
+               </ul>
+               <ul class="right-navbar">
+                   <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                   <li><a href="login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                   <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+               </ul>
+         </nav>
+       </header>
+       <div><img src="/static/images/img-home-banner.jpg" width="100%" alt=""></div>
+            <main>
+                <form action="/login" method="POST">
+                    <label for="yuser"> Nombre de usuari@: </label> 
+                    <input type="text" name="user" placeholder="Nombre de usuari@">
+                    <br> </br>
+                    <label for="pass"> Contraseña: </label> 
+                    <input type="password" name="pass" placeholder="contraseña">
+                    <br> </br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </main>
+        <footer>
+        </footer>
+    </body>
+</html>
